@@ -5,6 +5,8 @@ public class MoscowCircular {
         Scanner scanner = new Scanner(System.in);
         int v = scanner.nextInt();
         int t = scanner.nextInt();
-        System.out.println((v * t ) % 109);
+        int distance = ((v * t) % 109 + 109) % 109; // всегда от 0 до 108
+
+        System.out.println(distance);
     }
 }
