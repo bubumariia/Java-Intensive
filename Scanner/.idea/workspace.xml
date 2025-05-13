@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ef8f437d-df97-4dcd-a339-1653a675447f" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2wuMqauY6ADNQ0V88Nfb7XJErJ4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AppleDivision.executor": "Run",
+    "Application.AppleDivisionSecond.executor": "Run",
+    "Application.BiggerThanPrevious.executor": "Run",
+    "Application.BiggestNumber.executor": "Run",
+    "Application.Bishop.executor": "Run",
+    "Application.ChangeValues.executor": "Run",
+    "Application.CheckingSystem.executor": "Run",
+    "Application.CompareNeighbourNumbers.executor": "Run",
+    "Application.CostOfPurchase.executor": "Run",
+    "Application.EvenElements.executor": "Run",
+    "Application.Exponential.executor": "Run",
+    "Application.Factorial.executor": "Run",
+    "Application.FindSecondDigit.executor": "Run",
+    "Application.GeometricProgression.executor": "Run",
+    "Application.GeometricProgressionOfTwo.executor": "Run",
+    "Application.LastDigit.executor": "Run",
+    "Application.LeapYear.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MoscowCircular.executor": "Run",
+    "Application.NextAndPreviousNumber.executor": "Run",
+    "Application.NextEvenNumber.executor": "Run",
+    "Application.NumberTypeCounter.executor": "Run",
+    "Application.PolynomialRoots.executor": "Run",
+    "Application.PrintDecimals.executor": "Run",
+    "Application.Reminder.executor": "Run",
+    "Application.ReverseArray.executor": "Run",
+    "Application.Rook.executor": "Run",
+    "Application.SameTypeNumbers.executor": "Run",
+    "Application.SignumFunction.executor": "Run",
+    "Application.Square.executor": "Run",
+    "Application.SumOfInputs.executor": "Run",
+    "Application.SumOfNumbers.executor": "Run",
+    "Application.SumOfSquares.executor": "Run",
+    "Application.SwapTheElements.executor": "Run",
+    "Application.SwapToTheNextIndex.executor": "Run",
+    "Application.WholeNumbers.executor": "Run",
+    "Application.ZeroCounter.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "onboarding.tips.debug.path": "/Users/bubumariiak/Desktop/Java Practice/Scanner/src/Main.java",
+    "run.code.analysis.last.selected.profile": "pProject Default"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ef8f437d-df97-4dcd-a339-1653a675447f" name="Changes" comment="" />
+      <created>1746887197106</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1746887197106</updated>
+    </task>
+    <servers />
+  </component>
+</project>
