@@ -1,4 +1,4 @@
-package methods;
+package Recursion;
 
 public class Factorial {
     public static int factorial(int n){
