@@ -6,7 +6,6 @@ public class Calculator {
         return a+b;
     }
 
-
     // Static method → Should be called using the class name - like in Javascript
     public static int square(int x){
         return x * x;
