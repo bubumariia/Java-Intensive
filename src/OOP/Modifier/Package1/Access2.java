@@ -1,0 +1,14 @@
+package OOP.Modifier.Package1;
+
+public class Access2 {
+
+
+    public static void main(String[] args) {
+        Access1 h = new Access1();
+        Access1 min = new Access1();
+
+
+        System.out.println(h.hours);
+        System.out.println(min.minute);
+    }
+}
