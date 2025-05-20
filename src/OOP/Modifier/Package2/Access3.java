@@ -8,8 +8,7 @@ public class Access3 {
         Access1 h = new Access1();
         Access1 min = new Access1();
 
-        System.out.println(h.hours);
-        System.out.println(min.minute);
+
     }
 
 }
