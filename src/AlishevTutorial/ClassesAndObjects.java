@@ -5,12 +5,15 @@ public class ClassesAndObjects {
         Person person1 = new Person();
         person1.name = "Mariia";
         person1.age = 28;
+        person1.sayHelllo();
         person1.speak();
 
         Person person2 = new Person();
         person2.name = "Nurs";
         person2.age = 34;
+        person2.sayHelllo();
         person2.speak();
+
 
     }
 }
@@ -21,5 +24,8 @@ class Person{
     void speak(){
         System.out.println("My name is "+ name+ " and I am " + age + " years old");
 
+    }
+    void sayHelllo(){
+        System.out.println("Hello "+ name);
     }
 }
