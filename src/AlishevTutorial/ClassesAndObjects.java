@@ -7,12 +7,14 @@ public class ClassesAndObjects {
         person1.age = 28;
         person1.sayHelllo();
         person1.speak();
+        System.out.println(person1.calculateYearsToRetirement());
 
         Person person2 = new Person();
         person2.name = "Nurs";
         person2.age = 34;
         person2.sayHelllo();
         person2.speak();
+        System.out.println(person2.calculateYearsToRetirement());
 
 
     }
@@ -28,4 +30,11 @@ class Person{
     void sayHelllo(){
         System.out.println("Hello "+ name);
     }
+
+    int calculateYearsToRetirement(){
+        int years = 65 - age;
+        return years;
+    }
+
+
 }
