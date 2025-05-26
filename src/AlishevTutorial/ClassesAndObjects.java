@@ -3,25 +3,48 @@ package AlishevTutorial;
 public class ClassesAndObjects {
     public static void main(String[] args) {
         Person person1 = new Person();
-        person1.name = "Mariia";
-        person1.age = 28;
-        person1.sayHelllo();
+        person1.setName("Nurs");
+        person1.setAge(34);
         person1.speak();
-        System.out.println(person1.calculateYearsToRetirement());
 
         Person person2 = new Person();
-        person2.name = "Nurs";
-        person2.age = 34;
-        person2.sayHelllo();
+        person2.setName("Mariia");
+        person2.setAge(28);
         person2.speak();
-        System.out.println(person2.calculateYearsToRetirement());
+
 
 
     }
 }
 class Person{
-    String name;
-    int age;
+    private String name;
+    private int age;
+
+    public void setName(String username){
+
+        if(username.isEmpty()){
+            System.out.println("Enter your name");
+        }else{
+            name = username;
+        }
+    }
+
+    public String getName(){
+        return name;
+    }
+
+    public void setAge(int userAge){
+        if (age < 0){
+            System.out.println("Enter an age ");
+        }else{
+            age = userAge;
+        }
+
+    }
+    public int getAge(){
+        return age;
+    }
+
 
     void speak(){
         System.out.println("My name is "+ name+ " and I am " + age + " years old");
@@ -34,6 +57,11 @@ class Person{
     int calculateYearsToRetirement(){
         int years = 65 - age;
         return years;
+    }
+
+    void setName(String username, int userage){
+        name = username;
+        age = userage;
     }
 
 
