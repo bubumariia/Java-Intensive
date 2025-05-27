@@ -3,13 +3,15 @@ package AlishevTutorial;
 public class Constructors {
     public static void main(String[] args) {
     Individual human1 = new Individual("Mariia", 23);
-
+    Individual.description = "Hello";
+    Individual.getDescription();
 
     }
 }
 class Individual{
     private String name;
     private int age;
+    public static String description;
 
     public Individual(){
         this.name = "Bob";
@@ -30,5 +32,9 @@ class Individual{
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+    public static void getDescription(){
+        System.out.println("I am static description " + description);
     }
 }
