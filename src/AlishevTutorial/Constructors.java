@@ -3,26 +3,23 @@ package AlishevTutorial;
 public class Constructors {
     public static void main(String[] args) {
     Individual human1 = new Individual("Mariia", 23);
-    Individual.description = "Hello";
-    Individual.getDescription();
+    Individual human2 = new Individual("Bob", 34);
+
+    human1.printNumberOfPeople();
+    human2.printNumberOfPeople();
 
     }
 }
 class Individual{
     private String name;
     private int age;
-    public static String description;
+    private static int countPeople;
 
-    public Individual(){
-        this.name = "Bob";
-        this.age = 45;
-
-        System.out.println(name + "," + age);
-    }
 
     public Individual(String name, int age){
         this.name = name;
         this.age = age;
+        countPeople++;
         System.out.println(name + "," + age);
     }
 
@@ -34,7 +31,9 @@ class Individual{
         this.age = age;
     }
 
-    public static void getDescription(){
-        System.out.println("I am static description " + description);
+    public void printNumberOfPeople(){
+        System.out.println(countPeople);
     }
+
+
 }
