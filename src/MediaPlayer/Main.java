@@ -11,9 +11,23 @@ public class Main {
         videoPlayer.play();
         videoPlayer.pause();
         videoPlayer.stop();*/
+        Playable player;
 
-        Playable player = new AudioPlayer();
+        player = new AudioPlayer();
         player.play();
+        player.pause();
+        player.stop();
+
+       player = new VideoPlayer();
+       player.play();
+       player.pause();
+       player.stop();
+
+       player = new PodcastPlayer();
+       player.play();
+       player.pause();
+       player.stop();
+
 
     }
 }
